@@ -1,8 +1,5 @@
 def main():
-    try:
-        print('The number of times the symbol is repeated:', finder(input('Enter the text: '), input('Enter the character you want to search for: ')))
-    except Exception as e:
-        print(f'Error: {e}')
+    print('The number of times the symbol is repeated:', finder(input('Enter the text: '), input('Enter the character you want to search for: ')))
 
 def finder(text, char):
     result = 0
