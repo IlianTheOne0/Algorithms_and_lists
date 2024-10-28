@@ -1,5 +1,5 @@
 def main():
-    print('Inverted text:', inverter(str(input('Enter the text: '))))
+    print('Inverted text:', inverter(input('Enter the text: ')))
 
 def _len(data):
     number = 0
