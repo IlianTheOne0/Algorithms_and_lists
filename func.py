@@ -1,5 +1,5 @@
 def main():
-    numbers, letters = counter(str(input('Enter the text: ')))
+    numbers, letters = counter(input('Enter the text: '))
     print(f'Amount of letters: {letters}\nAmount of numbers: {numbers}')
 
 def counter(text):
