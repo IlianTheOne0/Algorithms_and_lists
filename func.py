@@ -5,11 +5,10 @@ def main():
     except Exception as e:
         print(f'Error: {e}')
 
-def finder(text, word):
-    result = 0
+# Function to find the number of times a word is repeated in a text
 
-    for temp in text:
-        if word == temp:
-            result += 1
+def replacer() -> str:
+    pass
 
-    return result
+def finder(text, word) -> int:
+    return text.lower().split().count(word.lower())
