@@ -2,7 +2,7 @@ def main():
     numbers, letters = counter(input('Enter the text: '))
     print(f'Amount of letters: {letters}\nAmount of numbers: {numbers}')
 
-def counter(text):
+def counter(text) -> tuple:
     amount_of_numbers = 0
     amount_of_letters = 0
 
