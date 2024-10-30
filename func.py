@@ -1,7 +1,7 @@
 def main():
     print('Inverted text:', inverter(input('Enter the text: ')))
 
-def _len(data):
+def _len(data) -> int:
     number = 0
 
     for temp in data:
@@ -9,7 +9,7 @@ def _len(data):
 
     return number
 
-def inverter(text):
+def inverter(text) -> str:
     length = _len(text)
     result = str()
 
